@@ -1,0 +1,57 @@
+
+textarea:focus{outline:2px solid blue;}
+input:invalid,select:invalid,textarea:invalid{border:2px solid red;}
+input:valid,select:valid,textarea:valid{border:1px solid green;}
+button{background-color:blue;}
+button:hover{background-color:skyblue;}
+
+.radio-group input[type="radio"]:checked{border: 5px solid blue;background-color:skyblue;box-shadow:0 3px 5px grey ;
+}
+input[type="radio"]:checked+label{color:skyblue;}
+
+
+input:first-of-type{border-radius:4px;}
+
+.container{width:90%;
+margin:0 auto;
+
+box-shadow: 0 0 7px 1px grey;
+border-radius:3px;}
+
+h1{text-align:center;
+padding-top:35px;
+  font-size:40px;
+}
+p,label{font-size:16px;}
+
+
+.name{display:flex; align-items:center;
+margin-top:45px;
+margin-left:20px;
+margin-bottom:20px;
+}
+
+#email,#position,#name{width:270px;height:35px;
+border:none;
+outline:1px solid blue;
+margin-left:15px;
+
+}
+fieldset{margin:45px 10px 45px 10px;}
+textarea{border:none;
+  outline:1px solid blue;
+  Margin-left:15px;
+  width:270px;
+  margin-bottom:45px;}
+  
+  
+  button{border:none;
+  width:290px;
+  height:45px;
+  border-radius:3px;
+  background-color:skyblue;
+  margin:0 0 45px 8px;}
+  button:focus{background-color:blue;}
+  input:focus,textarea:focus{border:1px solid blue;
+    
+  }
